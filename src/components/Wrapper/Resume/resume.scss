@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  .ResumeBox {
+    font-size: 50%;
+  }
+}
+
+.ResumeBox {
+  grid-area: resume;
+  display: grid;
+  //border: 1px solid white;
+  //height: 86vh;
+  grid-gap: 5px;
+  max-height: 86.1vh;
+  grid-template-areas:
+    "carousel generalInfo"
+    "education education"
+    "experience experience"
+    "skills skills"
+  ;
+  grid-template-columns: 4fr 4fr;
+  grid-template-rows: 0fr 0fr 0fr 0fr;
+
+
+  & div{
+    font-size: 110%;
+  }
+
+  .ResumeBox__carouselDiv {
+    width: 95%;
+    grid-area: carousel;
+  }
+  .ResumeBox__generalInfo{
+    grid-area: generalInfo;
+  }
+  .ResumeBox__education{
+    grid-area: education;
+  }
+  .ResumeBox__experience{
+    grid-area: experience;
+  }
+  .ResumeBox__skills{
+    grid-area: skills;
+  }
+}

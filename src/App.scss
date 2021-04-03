@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+  #root{
+    & .App {
+      display: grid;
+      grid-template-areas: "header header header" "wrapperBox wrapperBox wrapperBox" "footer footer footer";
+      grid-template-rows: 4rem 9.5fr 4rem;
+      grid-template-columns: 2fr 9fr 2fr;
+      & .Wrapper{
+        min-height: 84.2vh;
+      }
+    }
+  }
+
+  .LogoBox {
+    & h4 {
+      font-size: 1vh;
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  #root{
+    & .App {
+      & .Wrapper{
+        min-height: 77.4vh;
+      }
+    }
+  }
+}
+
+
+body {
+  background-image: url("./additions/images/background.jpg");
+  margin: 0 auto;
+}
+
+.App {
+  display: grid;
+  grid-template-areas:
+          "header header header"
+          "leftBlock wrapperBox rightBlock"
+          "footer footer footer";
+  grid-template-rows: 4rem 9.5fr 4rem;
+  grid-template-columns: 2fr 9fr 2fr;
+
+}
+
+::-webkit-scrollbar-button {
+  background-repeat:no-repeat;
+  width:6px;
+  height:0px
+}
+
+::-webkit-scrollbar-track {
+  background-color:#32312e;
+  box-shadow:0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #666666;
+  box-shadow:0px 1px 1px #fff inset;
+  background-position:center;
+  background-repeat:no-repeat;
+  border: 1px solid gold;
+}
+
+::-webkit-resizer{
+  background-repeat:no-repeat;
+  width:7px;
+  height:0px
+}
+
+::-webkit-scrollbar{
+  width: 11px;
+}

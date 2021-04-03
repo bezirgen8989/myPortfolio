@@ -1,0 +1,27 @@
+.ElementContainer {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  width: 28.6vh;
+  border: 1px solid gold;
+  max-height: 23vh;
+  vertical-align: top;
+  border-radius: 10px;
+  transition: .3s ease-in-out;
+  &:hover{
+    background-color: gold;
+    transition: .5s ease;
+    border: 1px solid black;
+    & a{
+      color: black;
+    }
+  }
+  & img {
+    width: 99%;
+    border-radius: 5px;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}

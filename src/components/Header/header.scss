@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .Header{
+    & .Header__navMenu{
+      margin-left: 0;
+      width: 80%;
+
+    }
+  }
+
+
+}
+
+.Header{
+  color: white;
+  display: inline-flex;
+  //border: 1px solid white;
+  max-width: 100%;
+  max-height: 4rem;
+  //position: fixed;
+  align-items: center;
+  background-color: dimgrey;
+  grid-area: header;
+  background-color: rgba(0,0,0,0.5);
+
+  nav{
+    margin-left: 5%;
+  }
+}
+
+.LogoBox{
+  margin-left: auto;
+  padding-right: 25px;
+  text-align: right;
+  cursor: pointer;
+}

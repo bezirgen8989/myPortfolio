@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss'
+import Header from "./components/Header/Header";
+import Wrapper from "./components/Wrapper/Wrapper";
+import Footer from "./components/Footer/Footer";
+import RightBlock from "./components/RightBlock/RightBlock";
+import LeftBlock from "./components/LeftBlock/LeftBlock";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = (props) =>{
+    // debugger
+    // console.log(props)
+    return(
+        <div className={'App'}>
+            <Header />
+            <RightBlock/>
+            <LeftBlock/>
+            <Wrapper
+                homePageData={props.state.homePageData}
+                portfolioPageData={props.state.portfolioPageData}
+                resumePageData={props.state.resumePageData}
+                reduxStore={props.reduxStore} />
+            <Footer/>
+        </div>
+    )
 }
-
 export default App;

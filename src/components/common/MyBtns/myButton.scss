@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+  .MyBtn {
+    margin-left: 1px;
+    font-size: 9px;
+    padding: 0;
+  }
+}
+
+.MyBtn{
+  background-color: black;
+  margin: 0 5px 0 0;
+  transition: 0.3s ease-in-out;
+
+  border-top: 2px solid black;
+  border-bottom: 2px solid gold;
+
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+
+  outline: none;
+  cursor: pointer;
+
+  & a {
+    text-decoration: none;
+    font-size: 145%;
+    padding: 0 10px 0 10px;
+    color: white;
+    transition: .3s ease;
+  }
+
+  &:hover{
+    border-top: 2px solid gold;
+    transition: 0.3s ease;
+    & a {
+      font-size: 135%;
+    }
+  }
+}
+
+.active{
+  border-radius: 15px;
+  border-bottom: 1px solid white;
+  transition: .3s ease;
+}
+
+
+//
+
+//.MyBtn{
+//  background-color: black;
+//  margin: 0 0 0 0.5rem;
+//  //min-width: 8rem;
+//  //border: 2px solid black;
+//  //border-bottom-color: gold;
+//  border-right: 2px solid gold;
+//  border-bottom: 2px solid gold;
+//  border-radius: 15px;
+//  outline: none;
+//  cursor: pointer;
+//
+//  & a {
+//    text-decoration: none;
+//    font-size: 135%;
+//    padding: 0 10px 0 10px;
+//    color: white;
+//  }
+//
+//  &:hover{
+//    border: 2px solid gold;
+//    transition: 0.3s ease;
+//    & a {
+//      font-size: 135%;
+//    }
+//  }
+//}
+//
+//.active{
+//  background-color: black;
+//  border-radius: 15px;
+//  border-bottom: 1px solid white;
+//  border-right: 1px solid white;
+//  border-left: 1px solid white;
+//  transition: .3s;
+//}

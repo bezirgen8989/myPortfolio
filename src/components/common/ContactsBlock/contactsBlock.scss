@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .IconsBox{
+    & a {
+      & i {
+        font-style: normal;
+        font-size: 2vh;
+      }
+    }
+  }
+}
+
+.IconsBox{
+  & a{
+    margin: 2vh;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 1vh;
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: auto;
+    transition: .5s ease-in-out;
+    &:hover{
+      border: 1px solid white;
+      background-color: yellow;
+      color: black;
+      & a, i{
+        color: black;
+      }
+      transition: .5s ease;
+    }
+  }
+  & i {
+    font-style: normal;
+    font-size: 3vh;
+  }
+}

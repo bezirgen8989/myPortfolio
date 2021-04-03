@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .IconsBox {
+    margin: 0;
+    & div {
+      & i {
+        font-size: 1.8vh;
+      }
+      & a {
+        & i {
+          font-size: 1.8vh;
+        }
+      }
+    }
+  }
+}
+
+.ContactsBox {
+  min-height: 84.1vh;
+}
+
+.IconsBox {
+
+}

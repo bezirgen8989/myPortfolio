@@ -1,0 +1,49 @@
+.ImageBox{
+  border: 1px solid white;
+  margin: 5px;
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  border-radius: 15px;
+  overflow: hidden;
+
+  position: relative;
+  min-width: 100%;
+
+
+  & img {
+    transition: .1s;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  & button{
+    transition: .3s ease-in-out;
+    position: absolute;
+    background: none;
+    border: none;
+    color: black;
+    width: 7%;
+    height: 100%;
+    z-index: 1;
+    outline: none;
+    min-width: min-content;
+    &:hover{
+      background-color: black;
+      opacity: 0.6;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+.ImageBox__btnLeft{
+  left: 0;
+  border-top-right-radius: 10vh;
+  border-bottom-right-radius: 10vh;
+}
+
+.ImageBox__btnRight{
+  right: 0;
+  border-top-left-radius: 10vh;
+  border-bottom-left-radius: 10vh;
+}

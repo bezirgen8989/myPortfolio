@@ -1,0 +1,37 @@
+.ImageGalleryBlock {
+  //max-width: 99%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+
+
+  & div {
+    border: 1px solid white;
+    margin: 1%;
+    border-radius: 10px;
+    & img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      display: flex;
+      cursor: pointer;
+    }
+  }
+}
+
+.ImageGalleryBlock__mainImage {
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+  display: inline-block;
+
+  .ImageGalleryBlock__textBlock {
+    background-color: rgba(0, 0, 0, 0.5);;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .PortfolioBox {
+    & div{
+      width: 17vh;
+    }
+  }
+}
+
+
+.PortfolioBox {
+  min-height: 86.1vh;
+  grid-area: home;
+  //border: 1px solid white;
+  //height: 86vh;
+  text-align: center;
+}

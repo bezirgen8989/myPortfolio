@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .FormBlock {
+    .FormBlock__lableSpan {
+      font-size: 1.7vh;
+    }
+
+    .FormBlock__infoSpan {
+      font-size: 1.7vh;
+    }
+  }
+  ul {
+    font-size: 1.7vh;
+  }
+
+  .BigLableElements{
+    font-size: 2.2vh;
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+.FormBlock {
+  font-family: "Times New Roman";
+  margin: 1px 1px 5px 10px;
+  .FormBlock__lableSpan {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .FormBlock__infoSpan {
+    font-weight: 100;
+    text-decoration: none;
+    display: inline-block;
+    font-style: italic;
+  }
+}
+
+h3{
+  margin: 17px 10px 0px 10px;
+  border-bottom: 1px solid whitesmoke;
+  padding: 0px 0px 0px 5px;
+}
