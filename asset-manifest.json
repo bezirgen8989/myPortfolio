@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.2dec3817.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.7f1855ec.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.7f1855ec.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.a5ac29a5.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.a5ac29a5.js.map",
+    "static/js/2.e13d982d.chunk.js": "/myPortfolio/static/js/2.e13d982d.chunk.js",
+    "static/js/2.e13d982d.chunk.js.map": "/myPortfolio/static/js/2.e13d982d.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.2dec3817.chunk.css.map": "/myPortfolio/static/css/main.2dec3817.chunk.css.map",
+    "static/js/2.e13d982d.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.e13d982d.chunk.js.LICENSE.txt",
+    "static/media/Carousel.6cd504fb.jpg": "/myPortfolio/static/media/Carousel.6cd504fb.jpg",
+    "static/media/ToDoList.7e6722d6.jpg": "/myPortfolio/static/media/ToDoList.7e6722d6.jpg",
+    "static/media/abstraktsiia-tekstura-fon-geometriia-treugolnik-foto-tekstur.624256e7.jpg": "/myPortfolio/static/media/abstraktsiia-tekstura-fon-geometriia-treugolnik-foto-tekstur.624256e7.jpg",
+    "static/media/android-fon-tekstura-linii-5373.472475f6.jpg": "/myPortfolio/static/media/android-fon-tekstura-linii-5373.472475f6.jpg",
+    "static/media/App.scss": "/myPortfolio/static/media/background.bf0fda83.jpg",
+    "static/media/cvet-forma-fon.dee32fc2.jpg": "/myPortfolio/static/media/cvet-forma-fon.dee32fc2.jpg",
+    "static/media/derevia-priroda-fon-3.2bea1ffc.jpg": "/myPortfolio/static/media/derevia-priroda-fon-3.2bea1ffc.jpg",
+    "static/media/dym-kluby-treugolnik.551b0c0d.jpg": "/myPortfolio/static/media/dym-kluby-treugolnik.551b0c0d.jpg",
+    "static/media/fontello.css": "/myPortfolio/static/media/fontello.efe94bc0.ttf",
+    "static/media/gory-treugolniki-fon.7b9b3f34.jpg": "/myPortfolio/static/media/gory-treugolniki-fon.7b9b3f34.jpg",
+    "static/media/note-7-samsung-galaxy-note-7-samsung-galaxy-abstraktsiia-a-3.51308382.jpg": "/myPortfolio/static/media/note-7-samsung-galaxy-note-7-samsung-galaxy-abstraktsiia-a-3.51308382.jpg",
+    "static/media/note-7-samsung-galaxy-note-7-samsung-galaxy-abstraktsiia-a-4.6729b213.jpg": "/myPortfolio/static/media/note-7-samsung-galaxy-note-7-samsung-galaxy-abstraktsiia-a-4.6729b213.jpg",
+    "static/media/piatna-abstraktsiia-vektor.14513466.jpg": "/myPortfolio/static/media/piatna-abstraktsiia-vektor.14513466.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5ac29a5.js",
+    "static/js/2.e13d982d.chunk.js",
+    "static/css/main.2dec3817.chunk.css",
+    "static/js/main.7f1855ec.chunk.js"
+  ]
+}
