@@ -5,7 +5,6 @@ import {changeActiveImageAC} from "../../../redux/reducers/homeReducer";
 
 const Home = (props) => {
     const [imageId, setImageId] = useState(props.homePageData.activeImage);
-
     useEffect(() => {
         setImageId(props.homePageData.activeImage)
     }, [props.homePageData.activeImage])

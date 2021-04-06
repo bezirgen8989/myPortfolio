@@ -6,9 +6,14 @@
   }
 }
 
+@media (max-width: 1290px) {
+  .PortfolioBox{
+    min-height: 86.1vh;
+  }
+}
 
 .PortfolioBox {
-  min-height: 80.7vh;
+  max-height: 80.7vh;
   grid-area: home;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);

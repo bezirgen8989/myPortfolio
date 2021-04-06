@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 1290px) {
+  .ResumeBox{
+    min-height: 86.1vh;
+  }
+}
+
 .ResumeBox {
   grid-area: resume;
   display: grid;

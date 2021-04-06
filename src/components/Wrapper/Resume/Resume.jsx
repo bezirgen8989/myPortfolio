@@ -26,7 +26,7 @@ const Resume = ({resumePageData, reduxStore}) => {
                 <LableElements lableInfo={"Date of Birth"} infoSpan={infoData.generalInfo.dateBirth}/>
                 <LableElements lableInfo={"Desired income level"} infoSpan={infoData.generalInfo.desiredIncome}/>
                 <LableElements lableInfo={"Address"} infoSpan={
-                    [infoData.generalInfo.address].map(item => `${item.country},${item.region},${item.city},${item.strit}`)}/>
+                    [infoData.generalInfo.address].map(item => `${item.country},${item.region},${item.city}`)}/>
                 <LableElements lableInfo={"eMail"} infoSpan={infoData.generalInfo.eMail}/>
             </div>
 
