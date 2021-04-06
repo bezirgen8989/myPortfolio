@@ -4,11 +4,11 @@
 
 .Wrapper{
   width: 100%;
-  overflow: auto;
+  //overflow: auto;
   color: white;
   grid-area: wrapperBox;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  //background-color: rgba(0, 0, 0, 0.5);
   & h2 {
     margin: 0;
   }

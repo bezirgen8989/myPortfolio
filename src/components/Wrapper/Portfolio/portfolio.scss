@@ -8,8 +8,10 @@
 
 
 .PortfolioBox {
-  min-height: 86.1vh;
+  min-height: 80.7vh;
   grid-area: home;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
   //border: 1px solid white;
   //height: 86vh;
   text-align: center;

@@ -1,6 +1,9 @@
 .HomeBox{
-  max-height: 86.1vh;
+  //max-height: 86.1vh;
+  max-height: 80.7vh;
   margin: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
   & h1 {
     margin: 0;
   }

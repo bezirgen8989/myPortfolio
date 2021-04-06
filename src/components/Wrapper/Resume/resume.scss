@@ -7,10 +7,12 @@
 .ResumeBox {
   grid-area: resume;
   display: grid;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
   //border: 1px solid white;
   //height: 86vh;
   grid-gap: 5px;
-  max-height: 86.1vh;
+  max-height: 80.7vh;
   grid-template-areas:
     "carousel generalInfo"
     "education education"

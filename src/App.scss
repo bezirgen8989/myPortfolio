@@ -2,7 +2,7 @@
   #root{
     & .App {
       display: grid;
-      grid-template-areas: "header header header" "wrapperBox wrapperBox wrapperBox" "footer footer footer";
+      grid-template-areas: "header header header" "wrapperBox wrapperBox wrapperBox";
       grid-template-rows: 4rem 9.5fr 4rem;
       grid-template-columns: 2fr 9fr 2fr;
       & .Wrapper{
@@ -38,9 +38,8 @@ body {
   display: grid;
   grid-template-areas:
           "header header header"
-          "leftBlock wrapperBox rightBlock"
-          "footer footer footer";
-  grid-template-rows: 4rem 9.5fr 4rem;
+          "leftBlock wrapperBox rightBlock";
+  grid-template-rows: 4rem 87%;
   grid-template-columns: 2fr 9fr 2fr;
 
 }
