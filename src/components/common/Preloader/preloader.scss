@@ -1,0 +1,36 @@
+@keyframes spin {
+  0%{
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(
+                    359deg
+    );
+    transform: rotate(
+                    359deg
+    );
+  }
+}
+.iconPreloader{
+  background-color: rgba(1,2,1,0.49);
+  position: fixed;
+  font-size: 16vh;
+  z-index: 1;
+  //border: 1px solid red;
+  min-width: 68%;
+  min-height: 86%;
+
+  & i {
+    color: yellow;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+  }
+}

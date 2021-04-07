@@ -6,7 +6,7 @@ const ImageGallery = (props) => {
     return (
         <div className={'ImageGalleryBlock'}>
             <div className={'ImageGalleryBlock__mainImage'}>
-                <img src={props.mainImage} alt={props.mainImageAlt}/>
+                <img src={props.mainImage} alt={props.mainImageAlt} />
                 <div className={'ImageGalleryBlock__textBlock'}>
                     {props.describeImage}
                 </div>

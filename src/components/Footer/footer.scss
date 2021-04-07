@@ -2,8 +2,12 @@
   color: white;
   background-color: rgba(1,2,1,0.49);
   grid-area: footer;
-  max-height: 4rem;
+  min-height: 3.09rem;
   position: absolute;
   bottom: 0;
   width: 100%;
+  & h1{
+    margin: 0;
+    padding: 0;
+  }
 }
