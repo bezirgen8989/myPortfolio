@@ -1,3 +1,11 @@
+@media (max-width: 376px) {
+  .ImageGalleryBlock{
+    & .ImageGalleryBlock__textBlock{
+      font-size: 1.3vh;
+    }
+  }
+}
+
 .ImageGalleryBlock {
   //max-width: 99%;
   display: grid;

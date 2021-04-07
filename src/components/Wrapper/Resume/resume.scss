@@ -1,13 +1,14 @@
-@media (max-width: 768px) {
+@media (max-width: 374px) {
   .ResumeBox {
-    font-size: 50%;
-
+    min-height: 86.1vh;
   }
 }
 
 @media (max-width: 1290px) {
-  .ResumeBox{
-    min-height: 86.1vh;
+  .ResumeBox {
+    //86.1vh
+    min-height: 87.7vh;
+    font-size: 2.7vh;
   }
 }
 
@@ -16,38 +17,34 @@
   display: grid;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  //border: 1px solid white;
-  //height: 86vh;
   grid-gap: 5px;
-  max-height: 80.7vh;
+  //max-height: 80.7vh;
   grid-template-areas:
     "carousel generalInfo"
     "education education"
     "experience experience"
-    "skills skills"
-  ;
+    "skills skills";
   grid-template-columns: 4fr 4fr;
   grid-template-rows: 0fr 0fr 0fr 0fr;
-
-
-  & div{
-    font-size: 110%;
-  }
 
   .ResumeBox__carouselDiv {
     width: 95%;
     grid-area: carousel;
   }
-  .ResumeBox__generalInfo{
+
+  .ResumeBox__generalInfo {
     grid-area: generalInfo;
   }
-  .ResumeBox__education{
+
+  .ResumeBox__education {
     grid-area: education;
   }
-  .ResumeBox__experience{
+
+  .ResumeBox__experience {
     grid-area: experience;
   }
-  .ResumeBox__skills{
+
+  .ResumeBox__skills {
     grid-area: skills;
   }
 }

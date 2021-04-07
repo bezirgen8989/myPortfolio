@@ -1,26 +1,30 @@
-@media (max-width: 768px) {
+@media (max-width: 376px) {
   .FormBlock {
-    .FormBlock__lableSpan {
-      font-size: 1.7vh;
-    }
 
+    .FormBlock__lableSpan {
+      font-size: 1.3vh;
+    }
     .FormBlock__infoSpan {
-      font-size: 1.7vh;
+      font-size: 1.3vh;
     }
   }
   ul {
-    font-size: 1.7vh;
+    font-size: 1.3vh;
   }
 
   .BigLableElements{
-    font-size: 2.2vh;
-    margin: 0px 10px 0px 10px;
+    font-size: 1.8vh;
+    margin: 0 10px 0 10px;
+  }
+}
+@media (max-width: 1290px) {
+  .FormBlock {
+    margin: 0 0 0 10px;
   }
 }
 
 .FormBlock {
   font-family: "Times New Roman";
-  margin: 1px 1px 5px 10px;
   .FormBlock__lableSpan {
     font-weight: 900;
     text-decoration: underline;
